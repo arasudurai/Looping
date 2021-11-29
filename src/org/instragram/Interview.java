@@ -1,6 +1,6 @@
-package org.instragram;
+spackage org.instragram;
 
-public class Interview {
+public class Interview{
 
 	static int temp;
 	private static int count(int a) {
