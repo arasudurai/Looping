@@ -1,59 +1,32 @@
-package org.instragram;
+spackage org.instragram;
 
-public class Interview {
-	
+public class Interview{
+
 	static int temp;
 	private static int count(int a) {
-		temp =a;
-		int d =0;
+
+		temp=a;
+		int d=0;
 		while (a>0) {
-			
-			int b= a/10;
-			int c = a%10;
+			int b =a/10;
+			int c =a%10;
 			a=b;
 			d=c+(d*10);
-			
-			
+
 		}
-		return d;		
+		return d;	
 
 	}
-	
+
 	public static void main(String[] args) {
-		
-		int count = count(123411245);
+
+		int count = count(645513);
 		System.out.println(count);
-		System.out.println("1221`345");
-		
-		
-		
+		System.out.println("DAN");
+		System.out.println("DURAIANITHANAVEENA");
+
+
+
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
