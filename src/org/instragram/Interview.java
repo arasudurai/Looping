@@ -23,6 +23,7 @@ public class Interview {
 		
 		int count = count(123411245);
 		System.out.println(count);
+		System.out.println("1221`345");
 		
 		
 		
